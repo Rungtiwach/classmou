@@ -1,0 +1,18 @@
+body { font-family: system-ui, sans-serif; margin: 14px; }
+label { margin-right: 12px; }
+
+#colorBox {
+  height: 80px;
+  margin: 10px 0;
+  border-radius: 12px;
+  background: #64748b;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .3s;
+}
+hr { border: none; border-top: 1px solid #e2e8f0; margin: 12px 0; }
+#cmpText { width: 100%; padding: 6px 10px; border: 1px solid #cbd5e1; border-radius: 8px; box-sizing: border-box; }
+#cmpOut { font-family: monospace; }

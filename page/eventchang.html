@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/eventchang.css">
+</head>
+<body>
+    <label>ธีม
+    <select id="themeSel">
+        <option value="#64748b">เทา</option>
+        <option value="#2563eb">น้ำเงิน</option>
+        <option value="#16a34a">เขียว</option>
+        <option value="#e34c26">ส้ม</option>
+    </select>
+    </label>
+    <label><input type="checkbox" id="roundChk"> มุมโค้งมาก</label>
+
+    <div id="colorBox">เลือกธีมจาก dropdown</div>
+
+    <label>จำนวน
+    <input type="range" id="qtyRange" min="100" max="10000" step="100" value="100">
+    <b id="qtyVal">100 หุ้น</b>
+    </label>
+
+    <hr>
+    <input type="text" id="cmpText" placeholder="พิมพ์แล้วกด Tab หรือคลิกออก">
+    <p id="cmpOut">input ยิง 0 ครั้ง | change ยิง 0 ครั้ง</p>
+    <script src="/js/eventclick.js"></script>
+</body>
+</html>

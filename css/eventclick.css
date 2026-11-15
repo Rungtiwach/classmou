@@ -1,0 +1,18 @@
+body { font-family: system-ui, sans-serif; margin: 16px; text-align: center; }
+
+#countNum {
+  font-size: 64px;
+  font-weight: 700;
+  font-family: monospace;
+  color: #64748b;
+  transition: color .2s;
+}
+button {
+  font-size: 16px;
+  padding: 8px 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+}
+#btnPlus { background: #1e293b; color: white; }
